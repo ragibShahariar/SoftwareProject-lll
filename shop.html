@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - BikeWorld</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">BikeWorld</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <input type="text" placeholder="Search bikes...">
+            <a href="cart.html" class="cart-icon">🛒</a>
+        </div>
+    </header>
+    <div style="margin: 20px;">
+    <main class="shop-page">
+        <h1 style="text-align: center;">Our Bike Collection</h1>
+        
+        <div class="filter-section">
+            <select id="price-sort">
+                <option value="">Sort by Price</option>
+                <option value="low-high">Low to High</option>
+                <option value="high-low">High to Low</option>
+            </select>
+        </div>
+
+        <div class="bike-categories">
+            <div class="price-category" data-price-range="0-500">
+                <h2>Budget Bikes ($0-$500)</h2>
+                <div class="bike-grid">
+                    <div class="bike-card">
+                        <img src="bikeOne/IMG_8063.JPG" alt="">
+                        <h3>Basic Commuter</h3>
+                        <p>$299</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                    <div class="bike-card">
+                        <img src="bikeOne/IMG_8064.PNG" alt="">
+                        <h3>Basic Commuter</h3>
+                        <p>$299</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                    <div class="bike-card">
+                        <img src="bikeOne/IMG_8065.PNG" alt="">
+                        <h3>Basic Commuter</h3>
+                        <p>$299</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                    <div class="bike-card">
+                        <img src="bikeOne/IMG_8066.JPG" alt="">
+                        <h3>Basic Commuter</h3>
+                        <p>$299</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                    <!-- More bikes in this price range -->
+                </div>
+            </div>
+
+            <div class="price-category" data-price-range="500-1000">
+                <h2>Mid-Range Bikes ($500-$1000)</h2>
+                <div class="bike-grid">
+                    <div class="bike-card">
+                        <img src="bikeThree/IMG_8188.PNG" alt="">
+                        <h3>City Cruiser</h3>
+                        <p>$899</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                    <div class="bike-card">
+                        <img src="bikeThree/IMG_8189.JPG" alt="">
+                        <h3>Basic Commuter</h3>
+                        <p>$299</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                    <div class="bike-card">
+                        <img src="bikeThree/IMG_8190.JPG" alt="">
+                        <h3>Basic Commuter</h3>
+                        <p>$299</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                    <div class="bike-card">
+                        <img src="bikeThree/IMG_8191.JPG" alt="">
+                        <h3>Basic Commuter</h3>
+                        <p>$299</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                    <!-- More bikes in this price range -->
+                </div>
+            </div>
+
+            <div class="price-category" data-price-range="1000-2000">
+                <h2>Premium Bikes ($1000-$2000)</h2>
+                <div class="bike-grid">
+                    <div class="bike-card">
+                        <img src="bikeTwo/IMG_8184.JPG" alt="">
+                        <h3>Mountain Explorer</h3>
+                        <p>$1,299</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                    <div class="bike-card">
+                        <img src="bikeTwo/IMG_8185.JPG" alt="">
+                        <h3>Mountain Explorer</h3>
+                        <p>$1,299</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                    <div class="bike-card">
+                        <img src="bikeTwo/IMG_8186.JPG" alt="">
+                        <h3>Mountain Explorer</h3>
+                        <p>$1,299</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                    <div class="bike-card">
+                        <img src="bikeTwo/IMG_8187.JPG" alt="">
+                        <h3>Mountain Explorer</h3>
+                        <p>$1,299</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                    <!-- More bikes in this price range -->
+                </div>
+            </div>
+
+            <div class="price-category" data-price-range="2000+">
+                <h2>Professional Bikes ($2000+)</h2>
+                <div class="bike-grid">
+                    <div class="bike-card">
+                        <img src="bike4/bmw1.webp" alt="">
+                        <h3>Racing Pro</h3>
+                        <p>$2,499</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                    
+                    <div class="bike-card">
+                        <img src="bike4/bmw2.jpg" alt="">
+                        <h3>Racing Pro</h3>
+                        <p>$2,499</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                    <div class="bike-card">
+                        <img src="bike4/bmw3.jpg" alt="">
+                        <h3>Racing Pro</h3>
+                        <p>$2,499</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                    <div class="bike-card">
+                        <img src="bike4/bmw4.jpeg" alt="">
+                        <h3>Racing Pro</h3>
+                        <p>$2,499</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                    <!-- More bikes in this price range -->
+                </div>
+            </div>
+        </div>
+    </main>
+    </div>    
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 BikeWorld. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
